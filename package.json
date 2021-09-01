@@ -1,6 +1,6 @@
 {
   "name": "nuxt-i18n-composable",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -18,8 +18,8 @@
     "release": "npx bumpp --commit --tag && npm publish && git push"
   },
   "peerDependencies": {
-    "@nuxtjs/composition-api": ">= 0",
-    "nuxt-i18n": ">=6"
+    "@nuxtjs/composition-api": ">=0.24.6",
+    "nuxt-i18n": ">=6.0.0"
   },
   "devDependencies": {
     "@nuxtjs/composition-api": "^0.23.4",
